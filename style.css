@@ -11,12 +11,6 @@ body {
     border-bottom: 1px solid #33A8DB80;
 }
 
-.banner-content {
-    display: grid;
-    place-items: center;
-    background-image: url('../trilha-css-desafio-01/assets/images/banner.png');
-}
-
 h1 {
     text-transform: uppercase;
     font-size: 2rem;
@@ -25,6 +19,32 @@ h1 {
     background: linear-gradient(#33A8DB, #1472B7);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.banner-content {
+    display: grid;
+    place-items: center;
+    background-image: url('../trilha-css-desafio-01/assets/images/banner.png');
+}
+
+.banner-content p {
+    color: white;
+    text-align: center;
+    font-size: 1.50rem;
+    margin: 16px 0 24px;
+}
+
+.banner-content button {
+    color: #31A8DD;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: transparent;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    border-radius: 30px;
 }
 
 #course-content {
