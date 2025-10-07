@@ -27,6 +27,11 @@ h1 {
     background-image: url('../trilha-css-desafio-01/assets/images/banner.png');
 }
 
+.banner-content .logo {
+      background-color: rgba(0, 0, 0, .2);
+      border-radius: 50%;
+}
+
 .banner-content p {
     color: white;
     text-align: center;
