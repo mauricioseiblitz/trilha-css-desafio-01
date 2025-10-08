@@ -10,6 +10,10 @@ body {
     background-color: #000000;
 }
 
+p {
+    color: white;
+}
+
 section {
     margin: 100px auto;
 }
@@ -40,12 +44,11 @@ h1 {
 }
 
 .banner-content .logo {
-      background-color: rgba(0, 0, 0, .2);
-      border-radius: 50%;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 50%;
 }
 
 .banner-content p {
-    color: white;
     text-align: center;
     font-size: 1.50rem;
     margin: 16px 0 24px;
@@ -65,7 +68,6 @@ h1 {
 }
 
 #course-content {
-    color: white;
     text-align: center;
     width: 800px;
 }
@@ -80,7 +82,6 @@ h1 {
 }
 
 #course-content .modules-list .module {
-    color: white;
     width: 530px;
     margin: 0 auto 24px;
     border: 1px solid #33A8DB;
@@ -96,19 +97,31 @@ h1 {
 
 #transform-world {
     display: grid;
-    place-items: center;
+    place-items: left;
     background-image: url('assets/images/woman-code.png');
-    color: white;
+    height: 560px;
+    background-size: cover;
+    background-image: url('./assets/images/woman-code.png');
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+    padding: 200px;
+}
+
+#transform-world p {
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    max-width: 250px;
+    text-shadow: 3px 2px #33A8DB;
 }
 
 #professional-challenges {
     display: grid;
     place-items: center;
-    color: white;
 }
 
 footer {
     display: grid;
     place-items: center;
-    color: white;
 }
