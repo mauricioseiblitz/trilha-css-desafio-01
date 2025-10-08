@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+* {
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
     background-color: #000000;
+}
+
+section {
+    margin: 100px auto;
 }
 
 .banner {    
@@ -53,9 +65,33 @@ h1 {
 }
 
 #course-content {
-    display: grid;
-    place-items: center;
     color: white;
+    text-align: center;
+    width: 800px;
+}
+
+#course-content h2 {
+    font-size: 2rem;
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+#course-content .modules-list .module {
+    color: white;
+    width: 530px;
+    margin: 0 auto 24px;
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    padding: 16px;
+    border-radius: 100px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+#course-content .modules-list .module span {
+    color: #33A8DB
 }
 
 #transform-world {
