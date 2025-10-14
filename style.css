@@ -37,6 +37,17 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
 .banner-content {
     display: grid;
     place-items: center;
@@ -84,6 +95,7 @@ h1 {
 #course-content .modules-list .module {
     width: 530px;
     margin: 0 auto 24px;
+    color: white;
     border: 1px solid #33A8DB;
     background-color: #252525;
     padding: 16px;
@@ -119,9 +131,44 @@ h1 {
 #professional-challenges {
     display: grid;
     place-items: center;
+    width: 800px;
+}
+
+#professional-challenges h2 {
+    font-size: 2rem;
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+#professional-challenges p {
+    display: block;
+    text-align: center;
+    margin-block-start: 3em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
 }
 
 footer {
     display: grid;
     place-items: center;
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid #33A8DB80;
+}
+
+#footer .dio-logo {
+    width: 300px;
+}
+
+footer a {
+    color: #33A8DB;
+    font-weight: bold;
+    text-decoration: none;
 }
